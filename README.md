@@ -1,7 +1,8 @@
-# GettingAndCleaningData_Assignment4
+# Getting And Cleaning Data
+## Assignment4
 
 
-##This README document is a guide for cleaning the dataset associated with the week 4 assignment. 
+### This README document is a guide for cleaning the dataset associated with the week 4 assignment. 
 
 1. Download and unzip the data files. (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 2. Open and copy the "run_analysis.R" file into your working directory. 
@@ -17,7 +18,7 @@
 4. Run the "run_analysis.R" script. 
 
 
-This script performs the following:
+### This script performs the following:
 1. Use the read.table command to read in the data from each of the .txt files
 2. Rename column names from the features.txt
 3. Use cbind to horizontally (long data set) merge the train data (subject_train, X_train, y_train) and repeat for test data. 
