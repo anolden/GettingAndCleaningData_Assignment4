@@ -3,11 +3,7 @@ title: "Untitled"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-This code book is to define and describe variables in the dataset "TidyData.txt", the result of running "run_analysis.R"
+This codebook is to define and describe variables in the dataset "TidyData.txt", the result of running "run_analysis.R"
 
 The starting data can be found : https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 A description of the starting data :  http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
@@ -19,7 +15,7 @@ There are 30 subjects and 6 activities, giving 180 observations
 There are 68 variables, 66 associated with the values (33 means and 33 standard deviations), with subjectID and Activity
 The first row contains the names for each column. 
 
-###measurements
+### Measurements
 *XYZ indicate directions (dimensions).
 
 tBodyAcc-XYZ
@@ -40,7 +36,7 @@ fBodyAccJerkMag
 fBodyGyroMag
 fBodyGyroJerkMag
 
-###descriptive variable names
+### Descriptive variable names
 leading t or f is based on time or frequency measurements.
 Body = related to body movement.
 Gravity = acceleration of gravity
