@@ -1,7 +1,7 @@
-# GettingAndCleaningData_Assignment4\
+# GettingAndCleaningData_Assignment4
 
 
-This README document is a guide for cleaning the dataset associated with the week 4 assignment. 
+###This README document is a guide for cleaning the dataset associated with the week 4 assignment. 
 
 1. Download and unzip the data files. (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 2. Open and copy the "run_analysis.R" file into your working directory. 
